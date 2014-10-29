@@ -1,0 +1,22 @@
+{
+  "name": "pull-header",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/pull-header",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-header.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pull-stream": "~2.26.0",
+    "tape": "~3.0.1",
+    "pull-randomly-split": "~1.0.1",
+    "pull-cat": "~1.1.5"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
